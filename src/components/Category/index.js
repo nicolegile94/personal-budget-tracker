@@ -9,13 +9,13 @@ function Category({ currentCategory }) {
     
     const renderCategory = () => {
         switch (currentCategory.name) {
-            case 'About Nicole':
+            case 'Intro':
                 return <About />;
-            case 'Portfolio':
+            case 'Stats':
                 return <Portfolio />;
-            case 'Contact':
+            case 'Actions':
                 return <Contact />;
-            case 'Resume':
+            case 'Equipment':
                 return <Resume />
             default:
                 return <About />
