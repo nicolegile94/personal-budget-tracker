@@ -7,20 +7,20 @@ import Footer from './components/Footer';
 function App() {
   const [categories] = useState([
     {
-     name: "About Nicole",
-     description: "Information about Nicole"
+     name: "Intro",
+     description: "Information about Ora"
     },
     {
-        name: "Portfolio",
-        description: "Sample of Nicole's work"
+        name: "Stats",
+        description: "Statistics for play"
     },
     {
-        name: "Resume",
-        description: "Resume for Nicole"
+        name: "Actions",
+        description: "Actions available"
     },
     {
-      name: "Contact",
-      description: "How to reach Nicole"
+      name: "Equipment",
+      description: "Current backpack"
     }
  ]);
 
