@@ -1,20 +1,57 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Supplies from '../Equipment';
+
 
 
 function Resume() {
+
+    const [supplies] = useState([
+        {
+            item: 'Bedroll',
+            weight: 7,
+            qty: 1,
+            cost: 1
+        },
+        {
+            item: "Cook's Utensils",
+            weight: 8,
+            qty: 1,
+            cost: 1
+        },
+        {
+            item: "Crowbar",
+            weight: 5,
+            qty: 1,
+            cost: 2
+        },
+        {
+            item: "Javelin",
+            weight: 8,
+            qty: 4,
+            cost: 2
+        },
+        {
+            item: "Torch",
+            weight: 10,
+            qty: 10,
+            cost: 1
+        }
+    ])
+    
     return (
-        <section class="content">
-            <div>
-                <h2>Nicole's Resume: <a href="https://www.linkedin.com/in/nicolegile94/">Download Now</a></h2>
-                <h3>Skills: </h3>
-                    <ul>
-                        <li>Web Testing</li>
-                        <li>Android Testing</li>
-                        <li>Web Development</li>
-                    </ul>
-            </div>
-        </section>
-    )
-}
+      <section class="content">
+        <div>
+          <div className="flex-row">
+            {supplies.map((supplies, idx) => (
+              <Supplies
+              supplies={supplies}
+                key={"supplies" + idx}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      );
+    };
 
 export default Resume;
