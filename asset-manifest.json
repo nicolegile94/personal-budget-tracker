@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-budget-tracker/static/css/main.821028ab.chunk.css",
+    "main.js": "/personal-budget-tracker/static/js/main.5afd8334.chunk.js",
+    "main.js.map": "/personal-budget-tracker/static/js/main.5afd8334.chunk.js.map",
+    "runtime-main.js": "/personal-budget-tracker/static/js/runtime-main.61a73ab4.js",
+    "runtime-main.js.map": "/personal-budget-tracker/static/js/runtime-main.61a73ab4.js.map",
+    "static/js/2.661f5b52.chunk.js": "/personal-budget-tracker/static/js/2.661f5b52.chunk.js",
+    "static/js/2.661f5b52.chunk.js.map": "/personal-budget-tracker/static/js/2.661f5b52.chunk.js.map",
+    "static/js/3.1d4aa9e5.chunk.js": "/personal-budget-tracker/static/js/3.1d4aa9e5.chunk.js",
+    "static/js/3.1d4aa9e5.chunk.js.map": "/personal-budget-tracker/static/js/3.1d4aa9e5.chunk.js.map",
+    "index.html": "/personal-budget-tracker/index.html",
+    "static/css/main.821028ab.chunk.css.map": "/personal-budget-tracker/static/css/main.821028ab.chunk.css.map",
+    "static/js/2.661f5b52.chunk.js.LICENSE.txt": "/personal-budget-tracker/static/js/2.661f5b52.chunk.js.LICENSE.txt",
+    "static/media/Intro.332c1b9f.png": "/personal-budget-tracker/static/media/Intro.332c1b9f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61a73ab4.js",
+    "static/js/2.661f5b52.chunk.js",
+    "static/css/main.821028ab.chunk.css",
+    "static/js/main.5afd8334.chunk.js"
+  ]
+}
